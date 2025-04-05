@@ -47,16 +47,16 @@ class _SeedPlayersWidgetState extends State<SeedPlayersWidget> {
               });
             },
           )),
-          ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: (context) =>
-                          RoundsWidget(players: widget.players)),
-                );
-              },
-              child: const Text('Create Round 1 Matchups'))
+          // ElevatedButton(
+          //     onPressed: () {
+          //       Navigator.push(
+          //         context,
+          //         MaterialPageRoute(
+          //             builder: (context) =>
+          //                 RoundsWidget(players: widget.players)),
+          //       );
+          //     },
+          //     child: const Text('Create Round 1 Matchups'))
         ]));
   }
 }

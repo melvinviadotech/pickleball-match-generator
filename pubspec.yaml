@@ -10,7 +10,9 @@ dependencies:
   flutter:
     sdk: flutter
   path: ^1.9.0
+  path_provider: ^2.1.5
   sqflite: ^2.4.1
+  shared_preferences: ^2.5.3
 
 dev_dependencies:
   flutter_test:
@@ -18,4 +20,9 @@ dev_dependencies:
   flutter_lints: ^4.0.0
 
 flutter:
+  fonts:
+    - family: CustomFont
+      fonts:
+        - asset: fonts/SeuratProB.otf
   uses-material-design: true
+
